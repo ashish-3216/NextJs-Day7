@@ -5,7 +5,7 @@ const DynamicComponent = dynamic(() => import("../components/PopUpComponent"), {
   ssr: false,
 });
 
-export default function dyno() {
+export default function Dyno() {
   const [showPopUp, setShowPopUp] = useState(false);
   let btn_text = useRef(null);
   
